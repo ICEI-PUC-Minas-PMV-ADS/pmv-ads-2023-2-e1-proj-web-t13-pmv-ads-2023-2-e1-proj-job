@@ -1,75 +1,119 @@
 
+
 # Metodologia
 
 Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
 
 
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
 
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+Optamos pela metodologia Kanban para orientar o desenvolvimento deste projeto, pois, como destacado por Anderson (2010), ela oferece uma série de benefícios significativos. O Kanban proporciona uma visão clara do fluxo de trabalho, permitindo que todos os envolvidos tenham uma compreensão visual das tarefas em andamento, pendentes e concluídas. Além disso, promove a limitação do Trabalho em Andamento (WIP), o que ajuda a equipe a manter um ritmo e disciplina necessários para uma execução eficiente.
+
+O método Kanban também se destaca por promover a responsabilidade compartilhada, definindo papéis e responsabilidades de forma clara. Ele empodera os membros da equipe, incentivando-os a enfrentar desafios e promovendo o conhecimento distribuído e compartilhado de forma colaborativa. Além disso, cria uma ambiência propícia para a crítica construtiva das ideias, em vez de focar em aspectos pessoais. Essas características fazem do Kanban uma escolha sólida para o gerenciamento ágil deste projeto.".”
 
 ### Divisão de Papéis
 
-A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: Nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.
-- Equipe de Design: Nomes dos membros da equipe que trabalharão com design.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe utiliza o Kanban como base para a definição do processo de desenvolvimento.
+
+No contexto do Kanban, a divisão de papéis é mais flexível, mas ainda desempenham papéis importantes:
+
+-   **Líder de Fluxo (ou Kanban Master):** [Enzo Azevedo], atua como o principal responsável pela gestão do projeto Kanban. O Líder de Fluxo supervisiona o quadro Kanban, identifica gargalos e auxilia na melhoria contínua do processo.
+    
+-   **Product Owner (PO):** [Francisco Moraes], representa os interesses de todos os envolvidos (Stakeholders) e trabalha em estreita colaboração com a equipe para definir as funcionalidades do produto e priorizar os itens no Quadro Kanban.
+    
+-   **Equipe de Desenvolvimento:** [Enzo Azevedo, Francisco Moraes, Julio, Renato Gomes e Walter Valverde], todos os membros da equipe são responsáveis por implementar tarefas e itens de trabalho à medida que eles fluem pelo quadro Kanban.
+    
+-   **Equipe de Design:** [Enzo Azevedo], a equipe de design colabora com a equipe de desenvolvimento para garantir que os aspectos de design sejam incorporados ao trabalho conforme ele avança no quadro Kanban.
+    
+
+Essa configuração de papéis permite que a equipe Kanban colabore eficientemente na entrega contínua de trabalho, mantendo um fluxo constante e gerenciando as tarefas de acordo com as prioridades definidas pelo Product Owner.
+
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+A equipe utiliza o Kanban como base para a implementação do processo. A equipe pode fez o uso de ferramentas online, Trello, para acompanhar o progresso do projeto, executar tarefas e monitorar o status do desenvolvimento da solução. O quadro Kanban adotado apresenta a seguinte estrutura:
 
+**Backlog:** Nesta lista, são inseridas todas as tarefas a serem trabalhadas ou refinados, incluindo as atividades identificadas ao longo do projeto. O Backlog representa o conjunto de itens que estão disponíveis para serem trabalhados pela equipe.
+
+**A Fazer :** Esta lista representa o trabalho atual que a equipe está abordando. Os itens da lista "A Fazer" são selecionados a partir do Backlog e definem o que está planejado para ser trabalhado no momento.
+
+**Em Andamento:** Quando uma tarefa é iniciada, ela é movida para esta lista. Aqui, a equipe trabalha ativamente na implementação das tarefas. O objetivo é manter um limite de trabalho em andamento (WIP) controlado para evitar sobrecarga.
+
+**Revisão:** Nesta coluna, as tarefas que foram concluídas são movidas para revisão. A equipe ou membros designados revisam o trabalho concluído para garantir que atenda aos padrões de qualidade e às especificações do projeto antes da entrega final.
+
+**Concluído:** Nesta lista, as tarefas que passaram pelos testes e controle de qualidade são movidas quando estão prontas para ser entregues ao usuário. Os itens na lista "Concluído" não requerem mais edições ou revisões e estão prontos para serem implementados.
+
+A imagem do quadro Kanban do projeto está anexada em sequência  para proporcionar uma representação visual do progresso e do fluxo de trabalho da equipe.
+
+
+[![o3lZwY.png](https://a.imagem.app/o3lZwY.png)](https://imagem.app/image/o3lZwY)
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
 <ul>
+  <li>Desenvolvimento</li>
+  <li>A refinar (Criação de tarefas)</li>
   <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
+  <li>Documentação </li>
+  <li>Infraestrutura</li>
+    <li>Design</li>
 </ul>
 
-<figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
-</figure> 
+[![o3ldUa.png](https://a.imagem.app/o3ldUa.png)](https://imagem.app/image/o3ldUa)
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+A equipe utiliza uma variedade de ferramentas e ambientes de trabalho para desenvolver o projeto. Aqui está uma descrição dos principais ambientes e ferramentas empregados:
+
+**Ambientes de Trabalho:**
+
+1.  **Trello:** O Trello é usado como uma plataforma para gerenciar o quadro Kanban do projeto, onde as tarefas são rastreadas, atribuídas e movidas através das colunas, desde o Backlog até a conclusão. Ele oferece uma visão visual clara do progresso do projeto e permite que a equipe colabore de forma eficaz.
+    
+2.  **Figma:** O Figma é uma ferramenta de design colaborativo baseada na web. A equipe utiliza o Figma para criar e colaborar no design de interfaces de usuário, protótipos e outros artefatos de design. Isso ajuda a garantir que os aspectos de design sejam incorporados ao projeto de forma eficaz.
+    
+3.  **GitHub:** O GitHub é usado como plataforma de controle de versão e colaboração no desenvolvimento de código-fonte. A equipe mantém repositórios no GitHub para armazenar e controlar o código-fonte do projeto. Ele também facilita a colaboração entre os membros da equipe, permitindo que trabalhem em conjunto no desenvolvimento do software.
+    
+4.  **GitHub Pages:** O GitHub Pages é utilizado para hospedar a documentação e páginas da web relacionadas ao projeto. Ele fornece uma maneira conveniente de compartilhar informações com stakeholders e usuários finais, além de hospedar páginas de documentação e informações do projeto.
+
+
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Repositório de código fonte         | GitHub                             |[Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-job)                          |
+| Documentos do projeto               | GitHub                             |[Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-job/tree/main/documentos)                      |
+| Projeto de Interface                | Figma                              |Link                          |
+| Gerenciamento do Projeto            | Trello                    |[Link](https://trello.com/invite/b/JPVxcAx5/ATTI95ba4b5c4e14cf684fd1e2fdaf60de8aCFCE6B0D/jobplus)                             |
+| Hospedagem                          | GitHub Pages                       |Link                          |
 
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](http://https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
+Para um projeto HTML, CSS e JS simples, com no máximo duas páginas, a estratégia de organização de codificação pode ser mantida de forma direta e eficiente. 
+
+1. **Pasta Raiz (Diretório Principal):** Esta é a pasta principal do seu projeto. É onde será armazenado o arquivo HTML principal e outros recursos principais.
+
+    - `index.html`: O arquivo HTML principal do seu site. Este arquivo deve conter a estrutura geral do site e links para os arquivos CSS e JS.
+    - `style.css`: O arquivo CSS principal onde será colocado todas as regras de estilo para o site.
+    - `script.js`: O arquivo JavaScript principal para funcionalidades interativas, se necessário.
+
+2. **Pasta `imagens` (ou `img`):** Esta pasta é onde será armazenado todas as imagens usadas no site. Isso inclui logotipos, imagens de fundo e qualquer outra imagem que seja necessária.
+
+
+Aqui está um exemplo de como essa estrutura de organização de código-fonte pode ser representada no GitHub:
+
+- [Projeto no GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-job/tree/main/codigo-fonte)
+  - `imagens/`
+    - `imagem1.jpg`
+    - `imagem2.png`
+   - `pages/`
+	   - `home/`
+	   - `index.html`
+	  - `style.css`
+	  - `script.js`
+
+Essa estrutura simples e organizada ajuda a manter o projeto limpo e facilita a colaboração e manutenção no GitHub ou em qualquer ambiente de desenvolvimento.
+
