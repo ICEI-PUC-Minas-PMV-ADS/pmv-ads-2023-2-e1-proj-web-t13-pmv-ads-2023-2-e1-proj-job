@@ -3,16 +3,26 @@
 [Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
+Os problemas enfrentados pelos candidatos no recrutamento e seleção são: 
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Competitividade: O mercado de trabalho está cada vez mais competitivo, o que significa que há mais candidatos para cada vaga. Isso torna mais difícil para os candidatos se destacarem da concorrência. 
+
+Requisitos: As empresas estão cada vez mais exigentes quanto aos requisitos para as vagas disponíveis. Isso significa que os candidatos precisam ter um alto nível de qualificação e habilidades tanto nas hard skills como nas soft skills.  
+
+Processos longos e demorados: Os processos de recrutamento e seleção podem ser muito longos e demorados, o que pode ser desgastante para os candidatos. 
+
+A frustração de não ser selecionado para as vagas que deseja. 
 
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Os objetivos são: 
+
+Identificar os principais desafios enfrentados pelos candidatos no recrutamento e seleção. 
+
+Propor soluções para superar esses desafios. 
+
+Avaliar a viabilidade das soluções propostas. 
 
 ## Justificativa
 
