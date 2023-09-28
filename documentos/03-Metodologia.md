@@ -85,7 +85,7 @@ A equipe utiliza uma variedade de ferramentas e ambientes de trabalho para desen
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             |[Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-job)                          |
 | Documentos do projeto               | GitHub                             |[Link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-job/tree/main/documentos)                      |
-| Projeto de Interface                | Figma                              |Link                          |
+| Projeto de Interface                | Figma                              |[Link](https://www.figma.com/file/ecRPY0rOMqNbvT74HNSuRt/JobPlus?type=design&node-id=6%3A4481&mode=design&t=RbmJmCa2bPln9R2J-1)                          |
 | Gerenciamento do Projeto            | Trello                    |[Link](https://trello.com/invite/b/JPVxcAx5/ATTI95ba4b5c4e14cf684fd1e2fdaf60de8aCFCE6B0D/jobplus)                             |
 | Hospedagem                          | GitHub Pages                       |Link                          |
 
