@@ -34,9 +34,8 @@ Este link pode ajudar a equipe a formular a justificativa: [Como montar a justif
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
-
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+O público-alvo deste projeto são tanto os candidatos que enfrentam desafios no recrutamento e seleção, até aqueles que tem certo conhecimento de como os processos seletivos funcionam, mas podem ter algumas dúvidas do porque não conseguirem encontrar um emprego de maneira rápida.
+Após questionar algumas pessoas em busca de empregos, percebemos que a maioria deles se encontra na faixa dos 20 a 35 anos, mas há também mais jovens que não conseguem encontrar um estagio ou junior e pessoas mais experientes que mesmo com curriculo detalhado, ainda não conseguem passar das primeiras etapas de uma entrevista.
 
 Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
 
