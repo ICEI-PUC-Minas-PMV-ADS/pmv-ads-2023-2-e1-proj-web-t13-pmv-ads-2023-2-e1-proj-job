@@ -36,9 +36,5 @@ Este link pode ajudar a equipe a formular a justificativa: [Como montar a justif
 
 O público-alvo deste projeto são tanto os candidatos que enfrentam desafios no recrutamento e seleção, até aqueles que tem certo conhecimento de como os processos seletivos funcionam, mas podem ter algumas dúvidas do porque não conseguirem encontrar um emprego de maneira rápida.
 Após questionar algumas pessoas em busca de empregos, percebemos que a maioria deles se encontra na faixa dos 20 a 35 anos, mas há também mais jovens que não conseguem encontrar um estagio ou junior e pessoas mais experientes que mesmo com curriculo detalhado, ainda não conseguem passar das primeiras etapas de uma entrevista.
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+Nosso público alvo não somente são, porém, apenas os 8,3 milhões de desempregados no Brasil, mas também todos aqueles que querem encontrar empregos melhores que os que estão atualmente mas não sabem como o fazer.
 
