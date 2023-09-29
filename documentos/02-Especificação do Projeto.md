@@ -11,11 +11,11 @@
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Informar e orientar candidatos às entrevistas de empregos.</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Pessoas que estão procurando empregos.</td>
 </tr>
 </tbody>
 </table>
