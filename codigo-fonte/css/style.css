@@ -138,55 +138,11 @@
     background-color: #A0BEF3;
 }
 
-.card-vagas {
-    width: 300px;
-    border: 1px solid #ccc;
-    display: flex;
-    flex-direction: row;
-    padding: 16px;
-  }
-  
-  .logo {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .tags {
-    margin-left: auto;
-  }
-  
-  .tag {
-    background-color: #f1f1f1;
-    padding: 4px;
-    margin-bottom: 4px;
-    width: 76px;
-    height: 32px;
-
-    border-radius: 6px;
-    background: var(--gray-200, #E2E8F0);
-  }
-  
-  .descricao {
-    flex-grow: 1;
-    padding: 16px;
-  }
-
-
-
-
-  
-body {
-    margin: 0;
-    min-height: 100vh;
-    font-family: 'Open Sans';
-    background: #fafafa;
-  }
-  
-  a {
-    color: inherit;
-  }
-  
-  .cards-wrapper {
+.vagas h2 {
+    padding-top: 20px;
+    padding-left: 24px;
+}
+.cards-wrapper {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -195,10 +151,10 @@ body {
     padding: 4rem;
     margin: 0 auto;
     width: max-content;
-  }
+}
   
-  .card {
-    font-family: 'Heebo';
+.card {
+    font-family: 'Inter', sans-serif;
     --bg-filter-opacity: 0.5;
     background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
     height: 230px;
@@ -218,32 +174,30 @@ body {
     overflow: hidden;
     border: 2px solid #ccc;
     text-decoration: none;
-  }
+}
   
-  .card:hover {
+.card:hover {
     transform: rotate(0);
-  }
+}
   
-  .card h1 {
+.card h1 {
     margin: 0;
     font-size: 1.5em;
     line-height: 1.2em;
-  }
+}
   
-  .card p {
+.card p {
     font-size: 0.75em;
-    font-family: 'Open Sans';
+    font-family: 'Inter', sans-serif;
     margin-top: 0.5em;
     line-height: 2em;
-  }
+}
   
-  .card .tags {
+.card .tags {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* position: absolute; */
-  }
+}
   
-  .card .tags .tag {
+.card .tags .tag {
     display: flex;
     align-items: center;
     text-align: center;
@@ -253,17 +207,16 @@ body {
     border-radius: 0.3rem;
     padding: 0 0.5em;
     margin-right: 0.5em;
-    /* line-height: 1.5em; */
     transition: all, var(--transition-time);
 
-  }
+}
   
-  .card:hover .tags .tag {
+.card:hover .tags .tag {
     background: var(--color);
     color: white;
-  }
+}
   
-  .card .date {
+.card .date {
     position: absolute;
     top: 0;
     right: 0;
@@ -271,9 +224,9 @@ body {
     padding: 1em;
     line-height: 1em;
     opacity: .8;
-  }
+}
   
-  .card:before, .card:after {
+.card:before, .card:after {
     content: '';
     transform: scale(0);
     transform-origin: top left;
@@ -284,86 +237,86 @@ body {
     z-index: -5;
     transition: all, var(--transition-time);
     transition-timing-function: ease-in-out;
-  }
+}
   
-  .card:before {
+.card:before {
     background: #ddd;
     width: 250%;
     height: 250%;
-  }
+}
   
-  .card:after {
+.card:after {
     background: white;
     width: 200%;
     height: 200%;
-  }
+}
   
-  .card:hover {
+.card:hover {
     color: var(--color);
-  }
+}
   
-  .card:hover:before, .card:hover:after {
+.card:hover:before, .card:hover:after {
     transform: scale(1);
-  }
+}
   
-  .card-grid-space .num {
+.card-grid-space .num {
     font-size: 3em;
     margin-bottom: 1.2rem;
     margin-left: 1rem;
-  }
+}
   
-  .info {
+.info {
     font-size: 1.2em;
     display: flex;
     padding: 1em 3em;
     height: 3em;
-  }
+}
   
-  .info img {
+.info img {
     height: 3em;
     margin-right: 0.5em;
-  }
+}
   
-  .info h1 {
+.info h1 {
     font-size: 1em;
     font-weight: normal;
-  }
+}
   
   /* MEDIA QUERIES */
   @media screen and (max-width: 1285px) {
-    .cards-wrapper {
+  .cards-wrapper {
       grid-template-columns: 1fr 1fr;
-    }
   }
+}
   
   @media screen and (max-width: 900px) {
-    .cards-wrapper {
+  .cards-wrapper {
       grid-template-columns: 1fr;
-    }
-    .info {
+  }
+  .info {
       justify-content: center;
-    }
-    .card-grid-space .num {
+  }
+  .card-grid-space .num {
       /* /margin-left: 0;
       /text-align: center; */
-    }
   }
+}
   
   @media screen and (max-width: 500px) {
-    .cards-wrapper {
+  .cards-wrapper {
       padding: 4rem 2rem;
-    }
-    .card {
-      max-width: calc(100vw - 4rem);
-    }
   }
+  .card {
+      max-width: calc(100vw - 4rem);
+  }
+}
   
   @media screen and (max-width: 450px) {
-    .info {
+  .info {
       display: block;
       text-align: center;
-    }
-    .info h1 {
-      margin: 0;
-    }
   }
+  .info h1 {
+      margin: 0;
+  }
+}
