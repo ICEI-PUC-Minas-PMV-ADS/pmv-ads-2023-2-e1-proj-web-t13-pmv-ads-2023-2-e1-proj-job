@@ -30,10 +30,10 @@
 
 [Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
 
-|EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
-|--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+|EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE`            |PARA ... `PORQUE`                 |
+|--------------------|--------------------------------------|----------------------------------|
+| Eu como candidato, | desejo receber notificações de vagas | para encontrar oportunidades que se alinham com meu perfil. |
+| Eu como candidato, | Eu como candidato,                   | para provar minhas habilidades aos recrutadores.            |
 
 ## Requisitos do Projeto
 
