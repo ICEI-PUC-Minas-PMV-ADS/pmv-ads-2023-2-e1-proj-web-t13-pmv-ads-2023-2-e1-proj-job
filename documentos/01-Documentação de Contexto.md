@@ -1,6 +1,24 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Recrutamento e seleção é um processo da área de RH da empresa que visa atrair e selecionar profissionais que apresentem afinidade com a cultura da empresa e com as vagas em aberto. 
+
+O processo é dividido em duas etapas: 
+
+Recrutamento: responsável pela atração de candidatos às vagas de emprego disponíveis. Pode ter foco tanto no preenchimento de oportunidades abertas, quanto na criação de um banco de talentos. 
+
+Seleção: responsável pela identificação dos candidatos que estão mais adequados à posição em aberto. O processo seletivo inclui testes, vídeos, entrevistas e dinâmicas. 
+
+ 
+
+É de suma importância, que o candidato se atente ao processo como um todo, entender como as empresas trabalham o recrutamento e seleção para entender se faz sentido o seu próprio momento com o contexto da vaga ofertada e como candidatar-se e participar, para assim ter êxito na contratação. 
+
+ 
+
+De acordo com Ribeiro e Ferreira (2023, p.20): 
+
+ 
+
+“O processo de recrutar e selecionar pessoas tem uma grande importância, lidar com pessoas deixou de ser algo “obrigatório” para algo motivador e uma vantagem competitiva para empresa que valoriza um processo de R & S bem executado, cada fase desse processo deve ser analisada de forma correta, para que os futuros erros desnecessários ocorram, além de valorizar o profissional como ser humano.” 
 
 ## Problema
 Os problemas enfrentados pelos candidatos no recrutamento e seleção são: 
