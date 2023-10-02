@@ -45,8 +45,14 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+| RF-01 |  Autenticação de usuários (candidatos e recrutadores).|baixa  | 
+| RF-02 |  Envio de notificações para candidatos sobre novas vagas. | baixa  |
+| RF-03 | Capacidade para recrutadores listarem e editarem vagas. | alta |
+| RF-04 | Motor de busca e filtros para vagas e candidatos. | alta |
+| RF-05 | Sistema de testes online para candidatos.  | Média |
+| RF-06 | Capacidade para recrutadores criar testes personalizados. | Baixa |
+| RF-07 | Agenda para marcação de entrevistas entre candidatos e recrutadores.  | Média |
+
 
 **Prioridade: Alta / Média / Baixa. 
 
@@ -56,8 +62,11 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 |  Usabilidade: interface amigável e intuitiva. | alta   | 
+| RNF-02 | Performance: carregamento rápido das páginas.  | media   | 
+| RNF-03 |  Escalabilidade: suportar um grande número de usuários.  | media   | 
+| RNF-04 | Segurança: criptografia dos dados sensíveis.     | baixa  | 
+| RNF-05  |  Acessibilidade: O sistema deve ser inclusivo, seguindo as diretrizes de acessibilidade (WCAG) para permitir o uso por pessoas com diferentes capacidades e necessidades.  | alta | 
 
 **Prioridade: Alta / Média / Baixa. 
 
