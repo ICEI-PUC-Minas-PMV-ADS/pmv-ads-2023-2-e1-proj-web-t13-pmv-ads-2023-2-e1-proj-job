@@ -44,11 +44,13 @@ Avaliar a viabilidade das soluções propostas.
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+Encontrar um emprego que seja adequado às suas habilidades e interesses. O recrutamento e seleção é uma oportunidade de mostrar suas habilidades e qualificações para os recrutadores e demonstrar que você seria um bom ajuste para a empresa. 
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
+O recrutamento e seleção também pode ser uma oportunidade para os candidatos desenvolverem suas habilidades de entrevista e comunicação. Ao participar de entrevistas e testes, os candidatos podem aprender a se apresentar de forma profissional e responder a perguntas de forma eficaz.  
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Também pode ser uma oportunidade para os candidatos aprimorarem seu currículo e portfólio. Ao receber feedback dos recrutadores, os candidatos podem identificar áreas de melhoria e fazer as alterações necessárias para aumentar suas chances de sucesso. 
+
+É importante que os candidatos estejam cientes dos desafios do recrutamento e seleção. Ao estar ciente desses desafios, os candidatos podem se preparar melhor e aumentar suas chances de sucesso. 
 
 ## Público-Alvo
 
