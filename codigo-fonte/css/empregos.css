@@ -1,1 +1,799 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= stylesheet href="./style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Job Plus</title>
+</head>
+<body>
+<div>
+    <link href="./empregos.css" rel="stylesheet" />
+    <div class="empregos-container">
+      <div class="empregos-empregos">
+        <div class="empregos-content">
+          <div class="empregos-filter">
+            <div class="empregos-frame36">
+              <span class="empregos-text"><span>Filtros</span></span>
+              <div class="empregos-frame35">
+                <span class="empregos-text002"><span>Local</span></span>
+                <div class="empregos-frame34">
+                  <div class="empregos-frame31">
+                    <img src="." alt="Ellipse56690" class="empregos-ellipse5" />
+                    <span class="empregos-text004">
+                      <span>Próximos de mim</span>
+                    </span>
+                  </div>
+                  <div class="empregos-frame32">
+                    <div class="empregos-group1">
+                      <img src="." alt="Ellipse66690" class="empregos-ellipse6" />
+                      <img src="." alt="Ellipse76690" class="empregos-ellipse7" />
+                    </div>
+                    <span class="empregos-text006"><span>Remoto</span></span>
+                  </div>
+                  <div class="empregos-frame341">
+                    <img src="." alt="Ellipse56691" class="empregos-ellipse501" />
+                    <span class="empregos-text008"><span>15 km</span></span>
+                  </div>
+                  <div class="empregos-frame351">
+                    <img src="." alt="Ellipse56691" class="empregos-ellipse502" />
+                    <span class="empregos-text010"><span>30 km</span></span>
+                  </div>
+                  <div class="empregos-frame361">
+                    <img src="." alt="Ellipse56692" class="empregos-ellipse503" />
+                    <span class="empregos-text012"><span>50 km</span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="empregos-frame37">
+                <span class="empregos-text014"><span>Salário</span></span>
+                <div class="empregos-frame43">
+                  <div class="empregos-frame40">
+                    <span class="empregos-text016"><span>Hora</span></span>
+                  </div>
+                  <div class="empregos-frame41">
+                    <span class="empregos-text018"><span>Mensal</span></span>
+                  </div>
+                  <div class="empregos-frame42">
+                    <span class="empregos-text020"><span>Anual</span></span>
+                  </div>
+                </div>
+                <div class="empregos-frame342">
+                  <div class="empregos-frame311">
+                    <div class="empregos-group11">
+                      <img
+                        src="."
+                        alt="Ellipse66693"
+                        class="empregos-ellipse61"
+                      />
+                      <img
+                        src="."
+                        alt="Ellipse76693"
+                        class="empregos-ellipse71"
+                      />
+                    </div>
+                    <span class="empregos-text022"><span>Outros</span></span>
+                  </div>
+                  <div class="empregos-frame321">
+                    <img src="." alt="Ellipse56693" class="empregos-ellipse504" />
+                    <span class="empregos-text024"><span>&gt; 30000k</span></span>
+                  </div>
+                  <div class="empregos-frame33">
+                    <img src="." alt="Ellipse56694" class="empregos-ellipse505" />
+                    <span class="empregos-text026"><span>&gt; 50000k</span></span>
+                  </div>
+                  <div class="empregos-frame343">
+                    <img src="." alt="Ellipse56694" class="empregos-ellipse506" />
+                    <span class="empregos-text028"><span>&gt; 80000k</span></span>
+                  </div>
+                  <div class="empregos-frame352">
+                    <img src="." alt="Ellipse56694" class="empregos-ellipse507" />
+                    <span class="empregos-text030">
+                      <span>&gt; 100000k</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="empregos-frame362">
+                <span class="empregos-text032"><span>Data de anúncio</span></span>
+                <div class="empregos-frame344">
+                  <div class="empregos-frame312">
+                    <div class="empregos-group12">
+                      <img
+                        src="."
+                        alt="Ellipse66695"
+                        class="empregos-ellipse62"
+                      />
+                      <img
+                        src="."
+                        alt="Ellipse76695"
+                        class="empregos-ellipse72"
+                      />
+                    </div>
+                    <span class="empregos-text034"><span>Outros</span></span>
+                  </div>
+                  <div class="empregos-frame322">
+                    <img src="." alt="Ellipse56695" class="empregos-ellipse508" />
+                    <span class="empregos-text036">
+                      <span>Últimas 24 horas</span>
+                    </span>
+                  </div>
+                  <div class="empregos-frame331">
+                    <img src="." alt="Ellipse56696" class="empregos-ellipse509" />
+                    <span class="empregos-text038">
+                      <span>Últimos 3 dias</span>
+                    </span>
+                  </div>
+                  <div class="empregos-frame345">
+                    <img src="." alt="Ellipse56696" class="empregos-ellipse510" />
+                    <span class="empregos-text040">
+                      <span>Últimos 7 dias</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="empregos-frame38">
+                <span class="empregos-text042">
+                  <span>Experiência necessária</span>
+                </span>
+                <div class="empregos-frame346">
+                  <div class="empregos-frame313">
+                    <div class="empregos-group13">
+                      <img
+                        src="."
+                        alt="Ellipse66697"
+                        class="empregos-ellipse63"
+                      />
+                      <img
+                        src="."
+                        alt="Ellipse76697"
+                        class="empregos-ellipse73"
+                      />
+                    </div>
+                    <span class="empregos-text044"><span>Outros</span></span>
+                  </div>
+                  <div class="empregos-frame323">
+                    <img src="." alt="Ellipse56697" class="empregos-ellipse511" />
+                    <span class="empregos-text046"><span>Junior</span></span>
+                  </div>
+                  <div class="empregos-frame332">
+                    <img src="." alt="Ellipse56697" class="empregos-ellipse512" />
+                    <span class="empregos-text048"><span>Pleno</span></span>
+                  </div>
+                  <div class="empregos-frame347">
+                    <img src="." alt="Ellipse53411" class="empregos-ellipse513" />
+                    <span class="empregos-text050"><span>Sênior</span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="empregos-frame39">
+                <span class="empregos-text052"><span>Tipo de vinculo</span></span>
+                <div class="empregos-frame348">
+                  <div class="empregos-frame314">
+                    <div class="empregos-group4">
+                      <img
+                        src="."
+                        alt="Rectangle26698"
+                        class="empregos-rectangle2"
+                      />
+                      <img
+                        src="/check6698-kqbf.svg"
+                        alt="Check6698"
+                        class="empregos-check"
+                      />
+                    </div>
+                    <span class="empregos-text054"><span>Full-time</span></span>
+                  </div>
+                  <div class="empregos-frame324">
+                    <img
+                      src="."
+                      alt="Rectangle26699"
+                      class="empregos-rectangle21"
+                    />
+                    <span class="empregos-text056"><span>Temporário</span></span>
+                  </div>
+                  <div class="empregos-frame333">
+                    <img
+                      src="."
+                      alt="Rectangle36699"
+                      class="empregos-rectangle3"
+                    />
+                    <span class="empregos-text058">
+                      <span>Meio horário</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="empregos-cards">
+            <div class="empregos-frame71">
+              <div class="empregos-frame46">
+                <span class="empregos-text060"><span>3177 Vagas</span></span>
+                <div class="empregos-frame14">
+                  <div class="empregos-frame45">
+                    <img
+                      src="/funnelsimple6700-3hs.svg"
+                      alt="FunnelSimple6700"
+                      class="empregos-funnel-simple"
+                    />
+                    <span class="empregos-text062"><span>Filtrar por</span></span>
+                  </div>
+                  <img
+                    src="/caretdown6700-wafp.svg"
+                    alt="CaretDown6700"
+                    class="empregos-caret-down"
+                  />
+                </div>
+              </div>
+              <div class="empregos-frame26">
+                <div class="empregos-frame17"></div>
+                <div class="empregos-frame23">
+                  <div class="empregos-frame28">
+                    <div class="empregos-frame29">
+                      <div class="empregos-frame27">
+                        <span class="empregos-text064">
+                          <span>Linear company</span>
+                        </span>
+                      </div>
+                      <div class="empregos-frame30">
+                        <span class="empregos-text066">
+                          <span>Software Engineer</span>
+                        </span>
+                        <div class="empregos-frame25">
+                          <span class="empregos-text068">
+                            <span>Nova vaga</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="empregos-frame3001">
+                      <div class="empregos-frame18">
+                        <img
+                          src="/mappinline6702-st13.svg"
+                          alt="MapPinLine6702"
+                          class="empregos-map-pin-line"
+                        />
+                        <span class="empregos-text070">
+                          <span>Brussels</span>
+                        </span>
+                      </div>
+                      <img src="." alt="Ellipse36702" class="empregos-ellipse3" />
+                      <div class="empregos-frame20">
+                        <img
+                          src="/clock6702-plsk.svg"
+                          alt="Clock6702"
+                          class="empregos-clock"
+                        />
+                        <span class="empregos-text072">
+                          <span>Full time</span>
+                        </span>
+                      </div>
+                      <img src="." alt="Ellipse26703" class="empregos-ellipse2" />
+                      <div class="empregos-frame21">
+                        <img
+                          src="/currencydollar6703-86ug.svg"
+                          alt="CurrencyDollar6703"
+                          class="empregos-currency-dollar"
+                        />
+                        <span class="empregos-text074"><span>50-55k</span></span>
+                      </div>
+                      <img src="." alt="Ellipse16703" class="empregos-ellipse1" />
+                      <div class="empregos-frame22">
+                        <img
+                          src="/calendarblank6704-1jap.svg"
+                          alt="CalendarBlank6704"
+                          class="empregos-calendar-blank"
+                        />
+                        <span class="empregos-text076">
+                          <span>29 min atrás</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="empregos-text078">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pellentesque mi tellus, sagittis a commodo sit amet,
+                      venenatis nec risus. Maecenas porttitor mi lorem.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="empregos-frame271">
+                <div class="empregos-frame171"></div>
+                <div class="empregos-frame231">
+                  <div class="empregos-frame281">
+                    <div class="empregos-frame291">
+                      <div class="empregos-frame272">
+                        <span class="empregos-text080"><span>Notion</span></span>
+                      </div>
+                      <div class="empregos-frame3002">
+                        <span class="empregos-text082">
+                          <span>Junior UI Designer</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="empregos-frame3003">
+                      <div class="empregos-frame181">
+                        <img
+                          src="/mappinline6705-3jme.svg"
+                          alt="MapPinLine6705"
+                          class="empregos-map-pin-line1"
+                        />
+                        <span class="empregos-text084"><span>Madrid</span></span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse36706"
+                        class="empregos-ellipse31"
+                      />
+                      <div class="empregos-frame201">
+                        <img
+                          src="/clock6706-7uhj.svg"
+                          alt="Clock6706"
+                          class="empregos-clock1"
+                        />
+                        <span class="empregos-text086">
+                          <span>Full time</span>
+                        </span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse26707"
+                        class="empregos-ellipse21"
+                      />
+                      <div class="empregos-frame211">
+                        <img
+                          src="/currencydollar6707-tl2a.svg"
+                          alt="CurrencyDollar6707"
+                          class="empregos-currency-dollar1"
+                        />
+                        <span class="empregos-text088"><span>30-32k</span></span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse16707"
+                        class="empregos-ellipse11"
+                      />
+                      <div class="empregos-frame221">
+                        <img
+                          src="/calendarblank6707-987r.svg"
+                          alt="CalendarBlank6707"
+                          class="empregos-calendar-blank1"
+                        />
+                        <span class="empregos-text090">
+                          <span>1 dia atrás</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="empregos-text092">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pellentesque mi tellus, sagittis a commodo sit amet,
+                      venenatis nec risus. Maecenas porttitor mi lorem.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="empregos-frame48">
+                <div class="empregos-frame172"></div>
+                <div class="empregos-frame232">
+                  <div class="empregos-frame282">
+                    <div class="empregos-frame292">
+                      <div class="empregos-frame273">
+                        <span class="empregos-text094">
+                          <span>Spline studio</span>
+                        </span>
+                      </div>
+                      <div class="empregos-frame3004">
+                        <span class="empregos-text096">
+                          <span>Technical Support Engineer</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="empregos-frame3005">
+                      <div class="empregos-frame182">
+                        <img
+                          src="/mappinline6709-3bx.svg"
+                          alt="MapPinLine6709"
+                          class="empregos-map-pin-line2"
+                        />
+                        <span class="empregos-text098">
+                          <span>United States</span>
+                        </span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse36710"
+                        class="empregos-ellipse32"
+                      />
+                      <div class="empregos-frame202">
+                        <img
+                          src="/clock6710-ykx.svg"
+                          alt="Clock6710"
+                          class="empregos-clock2"
+                        />
+                        <span class="empregos-text100">
+                          <span>Full time</span>
+                        </span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse26710"
+                        class="empregos-ellipse22"
+                      />
+                      <div class="empregos-frame212">
+                        <img
+                          src="/currencydollar6710-x0ha.svg"
+                          alt="CurrencyDollar6710"
+                          class="empregos-currency-dollar2"
+                        />
+                        <span class="empregos-text102"><span>50-52k</span></span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse16711"
+                        class="empregos-ellipse12"
+                      />
+                      <div class="empregos-frame222">
+                        <img
+                          src="/calendarblank6711-iaz7.svg"
+                          alt="CalendarBlank6711"
+                          class="empregos-calendar-blank2"
+                        />
+                        <span class="empregos-text104">
+                          <span>1 dia atrás</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="empregos-text106">
+                    <span>
+                      Mollit in laborum tempor Lorem incididunt irure. Aute eu ex
+                      ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod
+                      culpa. laborum tempor Lorem incididunt.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="empregos-frame251">
+                <div class="empregos-frame173"></div>
+                <div class="empregos-frame233">
+                  <div class="empregos-frame283">
+                    <div class="empregos-frame293">
+                      <div class="empregos-frame274">
+                        <span class="empregos-text108">
+                          <span>Raycast corp</span>
+                        </span>
+                      </div>
+                      <div class="empregos-frame3006">
+                        <span class="empregos-text110">
+                          <span>Product Designer</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="empregos-frame3007">
+                      <div class="empregos-frame183">
+                        <img
+                          src="/mappinline6713-3y17.svg"
+                          alt="MapPinLine6713"
+                          class="empregos-map-pin-line3"
+                        />
+                        <span class="empregos-text112"><span>London</span></span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse36713"
+                        class="empregos-ellipse33"
+                      />
+                      <div class="empregos-frame203">
+                        <img
+                          src="/clock6714-5cf.svg"
+                          alt="Clock6714"
+                          class="empregos-clock3"
+                        />
+                        <span class="empregos-text114">
+                          <span>Full time</span>
+                        </span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse26714"
+                        class="empregos-ellipse23"
+                      />
+                      <div class="empregos-frame213">
+                        <img
+                          src="/currencydollar6714-ns5l.svg"
+                          alt="CurrencyDollar6714"
+                          class="empregos-currency-dollar3"
+                        />
+                        <span class="empregos-text116"><span>40-42k</span></span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse16715"
+                        class="empregos-ellipse13"
+                      />
+                      <div class="empregos-frame223">
+                        <img
+                          src="/calendarblank6715-yuir.svg"
+                          alt="CalendarBlank6715"
+                          class="empregos-calendar-blank3"
+                        />
+                        <span class="empregos-text118">
+                          <span>2 dia atrás</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="empregos-text120">
+                    <span>
+                      Mollit in laborum tempor Lorem incididunt irure. Aute eu ex
+                      ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod
+                      culpa. laborum tempor Lorem incididunt.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="empregos-frame47">
+                <div class="empregos-frame174"></div>
+                <div class="empregos-frame234">
+                  <div class="empregos-frame284">
+                    <div class="empregos-frame294">
+                      <div class="empregos-frame275">
+                        <span class="empregos-text122"><span>Loom</span></span>
+                      </div>
+                      <div class="empregos-frame3008">
+                        <span class="empregos-text124">
+                          <span>Copywriter (Growth)</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="empregos-frame3009">
+                      <div class="empregos-frame184">
+                        <img
+                          src="/mappinline6717-9r45.svg"
+                          alt="MapPinLine6717"
+                          class="empregos-map-pin-line4"
+                        />
+                        <span class="empregos-text126"><span>London</span></span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse36717"
+                        class="empregos-ellipse34"
+                      />
+                      <div class="empregos-frame204">
+                        <img
+                          src="/clock6717-ptti.svg"
+                          alt="Clock6717"
+                          class="empregos-clock4"
+                        />
+                        <span class="empregos-text128">
+                          <span>Full time</span>
+                        </span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse26718"
+                        class="empregos-ellipse24"
+                      />
+                      <div class="empregos-frame214">
+                        <img
+                          src="/currencydollar6718-yyr.svg"
+                          alt="CurrencyDollar6718"
+                          class="empregos-currency-dollar4"
+                        />
+                        <span class="empregos-text130"><span>38-40k</span></span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse16718"
+                        class="empregos-ellipse14"
+                      />
+                      <div class="empregos-frame224">
+                        <img
+                          src="/calendarblank6718-vw6c.svg"
+                          alt="CalendarBlank6718"
+                          class="empregos-calendar-blank4"
+                        />
+                        <span class="empregos-text132">
+                          <span>3 dia atrás</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="empregos-text134">
+                    <span>
+                      Mollit in laborum tempor Lorem incididunt irure. Aute eu ex
+                      ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod
+                      culpa. laborum tempor Lorem incididunt.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="empregos-frame24">
+                <div class="empregos-frame175"></div>
+                <div class="empregos-frame235">
+                  <div class="empregos-frame285">
+                    <div class="empregos-frame295">
+                      <div class="empregos-frame276">
+                        <span class="empregos-text136">
+                          <span>Trainline group</span>
+                        </span>
+                      </div>
+                      <div class="empregos-frame3010">
+                        <span class="empregos-text138">
+                          <span>Senior UX/UI Designer</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="empregos-frame225">
+                      <div class="empregos-frame185">
+                        <img
+                          src="/mappinline6720-z3k5.svg"
+                          alt="MapPinLine6720"
+                          class="empregos-map-pin-line5"
+                        />
+                        <span class="empregos-text140"><span>Paris</span></span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse36721"
+                        class="empregos-ellipse35"
+                      />
+                      <div class="empregos-frame205">
+                        <img
+                          src="/clock6721-araw.svg"
+                          alt="Clock6721"
+                          class="empregos-clock5"
+                        />
+                        <span class="empregos-text142">
+                          <span>Full time</span>
+                        </span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse26721"
+                        class="empregos-ellipse25"
+                      />
+                      <div class="empregos-frame215">
+                        <img
+                          src="/currencydollar6722-5bv.svg"
+                          alt="CurrencyDollar6722"
+                          class="empregos-currency-dollar5"
+                        />
+                        <span class="empregos-text144"><span>38-40k</span></span>
+                      </div>
+                      <img
+                        src="."
+                        alt="Ellipse16722"
+                        class="empregos-ellipse15"
+                      />
+                      <div class="empregos-frame226">
+                        <img
+                          src="/calendarblank6722-vc74.svg"
+                          alt="CalendarBlank6722"
+                          class="empregos-calendar-blank5"
+                        />
+                        <span class="empregos-text146">
+                          <span>4 dia atrás</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="empregos-text148">
+                    <span>
+                      Mollit in laborum tempor Lorem incididunt irure. Aute eu ex
+                      ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod
+                      culpa. laborum tempor Lorem incididunt.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="empregos-pagination">
+              <button class="empregos-button">
+                <img
+                  src="/chevrondown6723-gbze.svg"
+                  alt="ChevronDown6723"
+                  class="empregos-chevron-down"
+                />
+              </button>
+              <button class="empregos-button1">
+                <span class="empregos-text150">1</span>
+              </button>
+              <button class="empregos-button2">
+                <span class="empregos-text151">2</span>
+              </button>
+              <button class="empregos-button3">
+                <span class="empregos-text152">3</span>
+              </button>
+              <button class="empregos-button4">
+                <span class="empregos-text153">4</span>
+              </button>
+              <button class="empregos-button5">
+                <span class="empregos-text154">5</span>
+              </button>
+              <button class="empregos-button6">
+                <img
+                  src="/chevrondown6724-egc.svg"
+                  alt="ChevronDown6724"
+                  class="empregos-chevron-down1"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <img
+          src="/rectangle56725-6cs.svg"
+          alt="Rectangle56725"
+          class="empregos-rectangle5"
+        />
+        <div class="empregos-frame427319271">
+          <span class="empregos-text155"><span>Empregos</span></span>
+          <span class="empregos-text157"><span>Vaga perfeita</span></span>
+          <img
+            src="/jobplus6725-c68.svg"
+            alt="JobPlus6725"
+            class="empregos-job-plus"
+          />
+        </div>
+        <div class="empregos-frame427319270">
+          <div class="empregos-footer">
+            <div class="empregos-group427319230"></div>
+          </div>
+          <div class="empregos-small-columns">
+            <div class="empregos-column">
+              <div class="empregos-content1">
+                <div class="empregos-footer-links">
+                  <span class="empregos-text159"><span>MATRIZ</span></span>
+                  <span class="empregos-text161">
+                    <span>
+                      Rua Dr. Renato Paes de Barros, 1017 6º andar - Itaim Bibi
+                      São Paulo/SP - CEP 04530-001
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="empregos-footer-links1">
+            <span class="empregos-text163"><span>FALE CONOSCO</span></span>
+            <span class="empregos-text165"><span>0800 025 4141</span></span>
+            <span class="empregos-text167"><span>jobplus@mail.me</span></span>
+          </div>
+          <div class="empregos-footer-links2">
+            <span class="empregos-text169"><span>SIGA O GRUPO PLUS</span></span>
+            <div class="empregos-frame427319252">
+              <img
+                src="/reacticonsioiologofacebook6727-54fh.svg"
+                alt="reacticonsioIoLogoFacebook6727"
+                class="empregos-reacticonsio-io-logo-facebook"
+              />
+              <img
+                src="/reacticonsioiologoinstagram6727-mcu4.svg"
+                alt="reacticonsioIoLogoInstagram6727"
+                class="empregos-reacticonsio-io-logo-instagram"
+              />
+              <img
+                src="/reacticonsioiologolinkedin6727-oh78.svg"
+                alt="reacticonsioIoLogoLinkedin6727"
+                class="empregos-reacticonsio-io-logo-linkedin"
+              />
+              <img
+                src="/frame6727-uv2q.svg"
+                alt="Frame6727"
+                class="empregos-frame"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body> 
