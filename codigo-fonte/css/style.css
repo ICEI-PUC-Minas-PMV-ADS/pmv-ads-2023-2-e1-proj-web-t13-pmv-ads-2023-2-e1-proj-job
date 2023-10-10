@@ -281,7 +281,164 @@
     font-size: 1em;
     font-weight: normal;
 }
+
+.vagas-recentes {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 30px;
+    margin: 0 auto;
+    width: max-content;
+}
+
+.vagas-recentes h2{
+    font-style: bold;
+}
+
+.vagas-recentes-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.vagas-recentes-card {
+    width: 300px;
+    height: 140px;
+    flex-shrink: 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.vagas-recentes-card img {
+    width: 78px;
+    height: 87px;
+    flex-shrink: 0;
+}
+
+.vagas-recentes-text {
+    flex-grow: 1;
+    text-align: center;
+}
   
+.vagas-recentes-tags {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.vagas-recentes-card span {
+    display: inline-flex;
+    height: 12px;
+    align-items: center;
+
+    color: #1A202C;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 8px;
+    background: var(--gray-200, #E2E8F0);
+}
+
+.footer {
+    background-color: #a0bef3;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-matriz {
+    color: var(--neutrals-text, #303030);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 24px */
+
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-matriz h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 36px */
+}
+
+.footer-contato {
+    color: var(--neutrals-text, #303030);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 24px */
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-contato h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 36px */
+}
+
+.footer-social {
+    color: var(--neutrals-text, #303030);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 24px */
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-social h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 36px */
+}
+
+
+
   /* MEDIA QUERIES */
   @media screen and (max-width: 1285px) {
   .cards-wrapper {
