@@ -28,40 +28,32 @@
 | Eu como candidato, | Quero ter mais informações sobre as vagas que estou concorrendo,| Para entender se tenho os requisitos para vaga. |
 | Eu como candidato, | Quero ter feedbacks da empresa quanto ao andamento da vaga,| Para me organizar para os próximos passos e controlar as expectativas.|
 | Eu como candidato, | Quero saber se for selecionado se terá uma integração e orientações sobre a rotina, | Para que eu conheça e entenda como a empresa trabalha, quais serão os desafios e entregas. |
-| Eu como candidato, |Quero saber se a empresa tem um plano de remuneração e carreira,| Para planejar e projetar meu futuro. . |
+| Eu como candidato, |Quero saber se a empresa tem um plano de remuneração e carreira,| Para planejar e projetar meu futuro.  |
 
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
-
 ### Requisitos Funcionais
-
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  Autenticação de usuários (candidatos e recrutadores).|baixa  | 
-| RF-02 |  Envio de notificações para candidatos sobre novas vagas. | baixa  |
-| RF-03 | Capacidade para recrutadores listarem e editarem vagas. | alta |
-| RF-04 | Motor de busca e filtros para vagas e candidatos. | alta |
-| RF-05 | Sistema de testes online para candidatos.  | Média |
-| RF-06 | Capacidade para recrutadores criar testes personalizados. | Baixa |
-| RF-07 | Agenda para marcação de entrevistas entre candidatos e recrutadores.  | Média |
+| RF-01 | O sistema deve mostrar como funciona a realização de entrevistas.|Alta  | 
+| RF-02 | O sistema deve mostrar como funciona a avaliação de candidatos. | Alta  |
+| RF-03 | O sistema deve mostrar como funciona a contratação de candidatos. | média |
+| RF-04 | O sistema deve mostrar como o candidato após ser contratado, pode ter uma trajetória de sucesso, de acordo com o que a empresa tem estabelecido no seu plano de carreira e remuneração. | média |
 
 
 **Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  Usabilidade: interface amigável e intuitiva. | alta   | 
-| RNF-02 | Performance: carregamento rápido das páginas.  | media   | 
-| RNF-03 |  Escalabilidade: suportar um grande número de usuários.  | media   | 
-| RNF-04 | Segurança: criptografia dos dados sensíveis.     | baixa  | 
-| RNF-05  |  Acessibilidade: O sistema deve ser inclusivo, seguindo as diretrizes de acessibilidade (WCAG) para permitir o uso por pessoas com diferentes capacidades e necessidades.  | alta | 
+| RNF-01 | O sistema deve ser de fácil uso. | alta   | 
+| RNF-02 | O sistema deve ser seguro.  | Alta   | 
+| RNF-03 | O sistema deve ser escalável.  | baixa   | 
+| RNF-04 | O sistema deve ser acessível.     | média  | 
+| RNF-05  |  O sistema deve ser inclusivo.  | alta | 
 
 **Prioridade: Alta / Média / Baixa. 
 
