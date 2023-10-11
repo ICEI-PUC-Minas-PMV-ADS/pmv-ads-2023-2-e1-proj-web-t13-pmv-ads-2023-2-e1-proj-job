@@ -21,17 +21,14 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
 
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE`            |PARA ... `PORQUE`                 |
 |--------------------|--------------------------------------|----------------------------------|
-| Eu como candidato, | desejo receber notificações de vagas | para encontrar oportunidades que se alinham com meu perfil. |
-| Eu como candidato, | Eu como candidato,                   | para provar minhas habilidades aos recrutadores.            |
+| Eu como candidato, | Quero ter mais informações sobre as vagas que estou concorrendo,| Para entender se tenho os requisitos para vaga. |
+| Eu como candidato, | Quero ter feedbacks da empresa quanto ao andamento da vaga,| Para me organizar para os próximos passos e controlar as expectativas.|
+| Eu como candidato, | Quero saber se for selecionado se terá uma integração e orientações sobre a rotina, | Para que eu conheça e entenda como a empresa trabalha, quais serão os desafios e entregas. |
+| Eu como candidato, |Quero saber se a empresa tem um plano de remuneração e carreira,| Para planejar e projetar meu futuro. . |
 
 ## Requisitos do Projeto
 
