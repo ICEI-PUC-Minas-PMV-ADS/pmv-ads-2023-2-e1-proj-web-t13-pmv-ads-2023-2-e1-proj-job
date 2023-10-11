@@ -11,7 +11,6 @@ Checklist das 15 competências fundamentais para o profissional do futuro! cesso
 “Como contratar e desenvolver talentos”. cesso em 08/09/2023.
 
 
-
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/)
 > - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
