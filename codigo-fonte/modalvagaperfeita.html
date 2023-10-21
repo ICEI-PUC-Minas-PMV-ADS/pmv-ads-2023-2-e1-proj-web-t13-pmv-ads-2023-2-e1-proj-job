@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .modal {
+            display: flex;
+            position: fixed;
+            inset: 0;
+            align-items: center;
+            justify-items: center;
+            z-index: 1;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            position: relative;
+            display: flex;
+            margin: auto;
+            padding: 72px 32px 48px 32px;
+            border-radius: 8px;
+            background: #FFF;
+            box-shadow: 0px 16px 39px 0px rgba(0, 0, 0, 0.04);
+            justify-items: center;
+            flex-direction: column;
+        }
+
+        .close {
+            position: relative;
+            overflow: hidden;
+            right: -200px;
+            bottom: 40px;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: red;
+        }
+
+        .text .img {
+            position: relative;
+            right: -87px;
+            bottom: 15px;
+        }
+
+        .button{
+            position: relative;
+            align-self: center;
+            padding: 25px;
+        }
+
+        .selected div{
+            display: none;
+            border-radius: 10px;
+            border: solid 1px black;
+            padding: 0 5px;
+            box-shadow: 1px rgba(0, 0, 0, 1);
+        }
+
+        .selected {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .selected a{
+            gap 2;
+            padding: 7px;
+            align-self: center;
+        }
+        
+        .button button{
+            border-radius: 4px;
+            background-color: #0A3E5C;
+            color: white;
+            height: 30px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <a id="ancor" href="#">vaga perfeita</a>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <i class="closebutton"></i>
+            <div class="text">
+                <img class="img" src="images/inventory_FILL0_wght400_GRAD0_opsz24 (1).png"></img>
+                <p> Selecione suas proficiências: </p>
+            </div>
+            <select class="dropdown" name="dropdown" id="dropdownlist" onchange="optionselected()">        
+                <option disabled selected value hidden> -- </option>
+                <option value="vue">Vue</option>
+                <option value="react">React</option>
+                <option value="solid">Solid</option>
+            </select>
+            <div class="selected">
+                <div id="vue"><span>Vue</span>
+                    <a onclick="closeblock('vue')">x</a>
+                </div>
+                <div id="react"><span>React</span>                 
+                    <a onclick="closeblock('react')">x</a> 
+                </div>
+                <div id="solid"><span>Solid</span>
+                    <a onclick="closeblock('solid')">x</a>
+                </div>
+            </div>
+            <div class="button">
+                <button>Ache a minha vaga</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        var modal = document.getElementById("modal");
+
+        var ancor = document.getElementById("ancor");
+
+        var span = document.getElementsByClassName("close")[0];
+
+        const dropdownlist = document.getElementById("dropdownlist")
+        const spanvue = document.getElementById("vue")
+        const spanreact = document.getElementById("react")
+        const spansolid = document.getElementById("solid")
+
+        ancor.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        function optionselected(){
+            const selectedoption = dropdownlist.options[dropdownlist.selectedIndex].value
+            switch (selectedoption){
+                case "vue": spanvue.style.display = "block"
+                    break
+                case "react": spanreact.style.display = "block"
+                    break
+                case "solid": spansolid.style.display = "block"
+                    break
+            }
+        }
+        function closeblock(value){
+            switch (value){
+                case "vue": spanvue.style.display = "none"
+                    break
+                case "react": spanreact.style.display = "none"
+                    break
+                case "solid": spansolid.style.display = "none"
+                    break
+            }            
+        }
+    </script>
+
+</body>
+
+</html>
