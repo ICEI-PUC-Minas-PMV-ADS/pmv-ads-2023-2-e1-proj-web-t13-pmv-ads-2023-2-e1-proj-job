@@ -8,7 +8,7 @@
 }
 
 .body {
-  background-color: #fafafa;
+  background: #fafafa;
 }
 
 .header {
@@ -28,6 +28,7 @@
   font-weight: 600;
   line-height: normal;
   padding-left: 24px;
+  text-decoration: none;
 }
 
 .header a.logo {
@@ -36,6 +37,10 @@
   font-weight: 800;
   line-height: normal;
   font-style: bold;
+}
+
+.header a.active {
+  color: #428dff;
 }
 
 .header-right {
@@ -398,7 +403,7 @@
 }
 
 .footer {
-  background-color: #ffffff;
+  background-color: #ececec;
   min-height: 245px;
   display: flex;
   justify-content: space-between;
