@@ -81,7 +81,7 @@
             height: 30px;
         }
 
-
+      
 
     </style>
 </head>
@@ -101,6 +101,7 @@
                 <option value="vue">Vue</option>
                 <option value="react">React</option>
                 <option value="solid">Solid</option>
+                <option value="java">Java</option>
             </select>
             <div class="selected">
                 <div id="vue"><span>Vue</span>
@@ -112,9 +113,12 @@
                 <div id="solid"><span>Solid</span>
                     <a onclick="closeblock('solid')">x</a>
                 </div>
+                <div id="java"><span>Java</span>
+                    <a onclick="closeblock('java')">x</a>
+                </div>
             </div>
-            <div class="button">
-                <button>Ache a minha vaga</button>
+            <div class="button" id="button">
+                <button onclick="document.getElementById('modal').style.display = 'none'">Ache a minha vaga</button>
             </div>
         </div>
     </div>
@@ -131,6 +135,7 @@
         const spanvue = document.getElementById("vue")
         const spanreact = document.getElementById("react")
         const spansolid = document.getElementById("solid")
+        const spanjava = document.getElementById("java")
 
         ancor.onclick = function () {
             modal.style.display = "block";
@@ -139,6 +144,7 @@
         span.onclick = function () {
             modal.style.display = "none";
         }
+
 
         window.onclick = function (event) {
             if (event.target == modal) {
@@ -154,6 +160,8 @@
                     break
                 case "solid": spansolid.style.display = "block"
                     break
+                case "java": spanjava.style.display = "block"
+                    break
             }
         }
         function closeblock(value){
@@ -163,6 +171,8 @@
                 case "react": spanreact.style.display = "none"
                     break
                 case "solid": spansolid.style.display = "none"
+                    break
+                case "java": spanjava.style.display = "none"
                     break
             }            
         }
