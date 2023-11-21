@@ -1,44 +1,140 @@
 # Programação de Funcionalidades
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
+**Tela inicial (RF-001)**
+Responsável: Renato  
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
-
-### Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
-
-
+O acesso a tela inicial contém um cabeçalho, um corpo e um rodapé. As estruturas de dados foram baseadas em HTML, CSS e JS.
+Exemplo da tela inicial
+![enter image description here](https://prnt.sc/hWyJ99Y0Cdcf)
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
-
+RF-001: O site deve permitir ao usuário visualizar as vagas.
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+● index.html
+
+● style.css
+
+● map.js
+
+● mapjobs.js
 
 
-#### Estrutura de Dados
+**Tela Emprego (RF-002)**
+Responsável: Francisco Moraes
 
-[Caso exista estrutura de dados, adicione aqui]
+A tela empregos contém um cabeçalho, um corpo e um rodapé. As estruturas de dados foram baseadas em HTML, CSS e JS.
+Exemplo da tela inicial
+![enter image description here](https://prnt.sc/hWyJ99Y0Cdcf)
+#### Requisito atendido
+
+RF-002: O site deve permitir ao usuário visualizar as vagas.
+
+#### Artefatos da funcionalidade
+
+● empregos.html
+
+● style.css
+
+● map.js
+
+● mapjobs.js
+
+**Filtro Emprego (RF-003)**
+Responsável: Enzo Azevedo
+
+Deve existir um filtro das vagas existentes para facilitar a busca dos usuários.
+
+Exemplo da tela inicial
+![enter image description here](https://prnt.sc/hWyJ99Y0Cdcf)
+#### Requisito atendido
+
+RF-003: O site deve permitir ao usuário visualizar as vagas.
+
+#### Artefatos da funcionalidade
+
+● empregos.html
+
+● style.css
+
+● map.js
+
+● mapjobs.js
+
+**Botões de Rede Social (RF-004)**
+Responsável: Renato Gomes
+
+Em todas as telas, deve existir no rodapé, informações das rede social do job plus e os botões devem levar para uma página referente.
+
+Exemplo da tela inicial
+![enter image description here](https://prnt.sc/hWyJ99Y0Cdcf)
+#### Requisito atendido
+
+RF-004: O site deve permitir ao usuário visualizar as redes sociais da empresa.
+
+#### Artefatos da funcionalidade
+
+● index.html
+
+● style.css
+
+● empregos.html
+
+**Área de vagas promovidas (RF-005)**
+Responsável: Renato Gomes
+
+Na tela inicial, deve existir vagas promovidas(patrocinadas) sendo visualizadas em destaque, para vagas que foram colocadas ali por pedido de alguma empresa, como forma de propaganda.
+
+Exemplo da tela inicial
+![enter image description here](https://prnt.sc/hWyJ99Y0Cdcf)
+#### Requisito atendido
+
+RF-005: O site deve permitir as empresas cadastradas de apresentar vagas em destaque.
+
+#### Artefatos da funcionalidade
+
+● index.html
+
+● style.css
+
+● empregos.html
 
 
-#### Instruções de acesso
+**Área de vagas recentes (RF-006)**
+Responsável: Renato Gomes
 
-[Adicione as orientações de acesso à funcionalidade]
+Na tela inicial, precisa aparecer as vagas cadastradas mais recentes.
 
+Exemplo da tela inicial
+![enter image description here](https://prnt.sc/hWyJ99Y0Cdcf)
+#### Requisito atendido
 
-#### Responsável
+RF-006: O site deve apresentar as vagas mais recentes.
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+#### Artefatos da funcionalidade
 
+● index.html
 
+● style.css
 
+● empregos.html
 
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+**Área de vagas recentes (RF-007)**
+Responsável: Renato Gomes
 
+Na tela inicial, o site precisa apresentar vagas por categoria, para facilitar a pesquisa dos usuários numa vaga no cargo selecionado.
+
+Exemplo da tela inicial
+![enter image description here](https://prnt.sc/hWyJ99Y0Cdcf)
+#### Requisito atendido
+
+RF-007: O site deve apresentar vagas por categoria.
+
+#### Artefatos da funcionalidade
+
+● index.html
+
+● style.css
+
+● empregos.html
