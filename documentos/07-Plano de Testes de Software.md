@@ -21,10 +21,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-01: Verificar o redirecionamento dos cards</td>
   <td>
    <ul>
-   <li>RF-00X:	O card deve permitir ao usuário navegar para um site de vaga selecionada.</li>
-   <li>RF-00X:	O card deve permitir ao usuário navegar para um site de vaga selecionada.</li>
-    <li>RF-00X:	O card deve permitir ao usuário navegar para um site de vaga selecionada.</li>
-      <li>RF-00X:	O card deve permitir ao usuário navegar para um site de vaga selecionado </li>
+   <li>RF-002:	O card deve permitir ao usuário navegar para um site de vaga selecionada.</li>
+   <li>RF-005:	O card deve permitir ao usuário navegar para um site de vaga selecionada.</li>
+    <li>RF-006:	O card deve permitir ao usuário navegar para um site de vaga selecionada.</li>
+      <li>RF-007:	O card deve permitir ao usuário navegar para um site de vaga selecionado </li>
    </ul>
   </td>
   <td>Verificar se os cards do projeto estão encaminhando para as respectivas páginas corretamente</td>
@@ -56,7 +56,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-02: Verificar o funcionamento do filtro de pesquisa</td>
   <td>
    <ul>
-    <li>RF-00X:	O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar as vagas de acordo com suas preferencias e disciplinas das tutorias      disponíveis.</li>
+    <li>RF-003:	O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar as vagas de acordo com suas preferencias e disciplinas das tutorias      disponíveis.</li>
    </ul>
   </td>
   <td>Verificar se o filtro de pesquisa está trazendo os dados pedidos pelo usuário</td>
@@ -90,8 +90,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-03: Verificar funcionamento header e footer</td>
   <td>
    <ul>
-    <li>RF-00X:	O site deve apresentar um header com opções de navegação.</li>
-    <li>RF-00X:	O site deve apresentar um footer com opções de navegação para as redes sociais.</li>
+    <li>RF-001:	O site deve apresentar um header com opções de navegação.</li>
+    <li>RF-004:	O site deve apresentar um footer com opções de navegação para as redes sociais.</li>
    </ul>
   </td>
   <td>Verificar se todas as informações referentes aos livros estão disponíveis na página Livros</td>
