@@ -40,18 +40,23 @@ const vagasRecentes = [
 const vagasRecentesHtml = vagasRecentes
   .map(
     (vaga) => `
+    
     <div class="vagas-recentes-card">
-        <div class="vagas-recentes-row">
+    <div class="vagas-recentes-row">
           <img src="${vaga.logoSrc}" alt="Logo" />
           <div class="vagas-recentes-text">
+          <a href='https://portal.gupy.io/job-search/term=product%20designer'>
             <h2>${vaga.titulo}</h2>
+            </a>
             <p>${vaga.localizacao}</p>
+       
           </div>
         </div>
         <div class="vagas-recentes-tags">
           ${vaga.tags.map((tag) => `<span>${tag}</span>`).join("")}
         </div>
       </div>
+    
 `
   )
   .join("");

@@ -336,6 +336,11 @@
   font-family: "Inter", sans-serif;
   margin-bottom: 0px;
   margin: 22px 0px;
+  text-decoration: none;
+}
+
+.vagas-recentes a {
+  text-decoration: none;
 }
 .vagas-recentes p {
   margin-top: 8px;

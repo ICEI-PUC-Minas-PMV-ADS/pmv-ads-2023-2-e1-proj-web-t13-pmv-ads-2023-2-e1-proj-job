@@ -374,8 +374,10 @@ function atualizarListaDeVagas(vagasFiltradas) {
           <img src="${vaga.logoSrc}" alt="${vaga.empresa}" />
         </div>
         <div class="content">
-          <h3>${vaga.empresa}</h3>
-          <h2>${vaga.vaga}</h2>
+        <h3>${vaga.empresa}</h3>
+        <a href='https://portal.gupy.io/job-search/term=${vaga.vaga}'> 
+        <h2>${vaga.vaga}</h2>
+          </a>
           <div class="infoCard">
             <h4>${vaga.local}</h4>
             <h4>${vaga.tipoDeVaga}</h4>
