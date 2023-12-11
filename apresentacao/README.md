@@ -26,7 +26,7 @@ A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a a
 > - resolução HD (720p) ou Full HD (1080p)
 > - formato mp4.
 
-[Adicione vídeo de apresentação.]
+https://drive.google.com/file/d/1RfF9kgjSvVizOAcLmxcyOy_Bsg0SHiD2/view?usp=drive_link
 
 ## Hospedagem
 
